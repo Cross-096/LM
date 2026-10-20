@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE peliculas [
+    <!ELEMENT peliculas (pelicula+)>
+    <!ELEMENT pelicula (titulo, director, pais, anio, genero)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT director (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT anio (#PCDATA)>
+    <!ELEMENT genero (#PCDATA)>
+]>
+<peliculas>
+
+<pelicula>
+    <titulo>Una pelicula de minecraft</titulo>
+    <director>Jared Hess</director>
+    <pais>Estados Unidos</pais>
+    <anio>2025</anio>
+    <genero>Aventura/Fantasía/Comedia</genero>
+</pelicula>
+<pelicula>
+    <titulo>Cómo entrenar a tu dragónt</titulo>
+    <director>Dean DeBlois</director>
+    <pais>Estados Unidos</pais>
+    <anio>2025</anio>
+    <genero>Aventura/Fantasía/Accion</genero>
+</pelicula>
+<pelicula>
+    <titulo>Lilo y Stitch</titulo>
+    <director>Dean Fleischer Camp</director>
+    <pais>Estados Unidos</pais>
+    <anio>2025</anio>
+    <genero>Aventura/Comedia/Ciencia ficción</genero>
+</pelicula>
+<pelicula>
+    <titulo>Elio</titulo>
+    <director>Adrian Molina, Madeline Sharafian y Domee Shi</director>
+    <pais>Estados Unidos</pais>
+    <anio>2025</anio>
+    <genero>Animación/Ciencia ficción/Aventura</genero>
+</pelicula>
+<pelicula>
+    <titulo>Los 4 Fantásticos: Primeros pasos</titulo>
+    <director>Matt Shakman</director>
+    <pais>Estados Unidos</pais>
+    <anio>2025</anio>
+    <genero>Ciencia ficción/Acción/Aventura</genero>
+</pelicula>
+<pelicula>
+    <titulo>Superman</titulo>
+    <director>James Gunn</director>
+    <pais>Estados Unidos</pais>
+    <anio>2025</anio>
+    <genero>Acción/Ciencia ficción/Superhéroes</genero>
+</pelicula>
+<pelicula>
+    <titulo>Zootrópolis 2</titulo>
+    <director>Jared Bush y Byron Howard</director>
+    <pais>Estados Unidos</pais>
+    <anio>2025</anio>
+    <genero> Animación/Comedia/Aventura</genero>
+</pelicula>
+<pelicula>
+    <titulo>Jurassic World: Renace</titulo>
+    <director>Gareth Edwards</director>
+    <pais>Estados Unidos</pais>
+    <anio>2025</anio>
+    <genero>Ciencia ficción/Aventura/Acción</genero>
+</pelicula>
+<pelicula>
+    <titulo>Paddington en Perú</titulo>
+    <director>Dougal Wilson</director>
+    <pais>Estados Unidos</pais>
+    <anio>2024</anio>
+    <genero>Aventura/Comedia/Familiar</genero>
+</pelicula>
+<pelicula>
+    <titulo>Vaiana 2</titulo>
+    <director>David G. Derrick Jr., Jason Hand y Dana Ledoux Miller</director>
+    <pais>Estados Unidos</pais>
+    <anio>2024</anio>
+    <genero>Animación/Aventura/Fantasía</genero>
+</pelicula>
+</peliculas>

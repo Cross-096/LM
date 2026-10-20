@@ -1,0 +1,69 @@
+body {
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: white;
+    padding:2%;
+    margin: auto;
+    border: 8px solid burlywood;
+    width: 90%;
+}
+
+section#fuego figure img {
+    width: 100%;
+}
+section#agua figure img {
+    width: 100%;
+}
+section#planta figure img {
+    width: 100%;
+}
+section#electricidad figure img {
+    width: 100%;
+}
+.fire {
+    border: 4px solid orangered;
+    background-color: lightsalmon;
+}
+#fuego figure {
+    margin: 0;
+    box-sizing: border-box;
+}
+#agua figure {
+    margin: 0;
+    box-sizing: border-box;
+}
+#planta figure {
+    margin: 0;
+    box-sizing: border-box;
+}
+#electricidad figure {
+    margin: 0;
+    box-sizing: border-box;
+}
+#agua {
+    display: flex;
+}
+#planta {
+    display: flex;
+}
+#electricidad {
+    display: flex;
+}
+.water {
+    border: 4px solid blue;
+    background-color: lightblue;
+}
+.grass {
+    border: 4px solid green;
+    background-color: lightgreen;
+}
+.electric {
+    border: 4px solid yellow;
+    background-color: lightyellow;
+}
+#fuego {
+    display: flex;
+}

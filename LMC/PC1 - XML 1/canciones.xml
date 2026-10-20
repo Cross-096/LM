@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE canciones [
+    <!ELEMENT canciones (cancion+)>
+    <!ELEMENT cancion (titulo, interprete, pais, anio, estilo)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT interprete (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT anio (#PCDATA)>
+    <!ELEMENT estilo (#PCDATA)>
+]>
+<canciones>
+    <cancion>
+        <titulo>Si antes te hubiera conocido</titulo>
+        <interprete>Karol G</interprete>
+        <pais>Clombia</pais>
+        <anio>2024</anio>
+        <estilo>Pop</estilo>
+    </cancion>
+    <cancion>
+        <titulo>Me has invitado a bailar</titulo>
+        <interprete>Dani Fernandez</interprete>
+        <pais>España</pais>
+        <anio>2025</anio>
+        <estilo>Pop</estilo>
+    </cancion>
+    <cancion>
+        <titulo>Last surprise</titulo>
+        <interprete>Shoji Meguro</interprete>
+        <pais>Japon</pais>
+        <anio>2016</anio>
+        <estilo>Acid jazz</estilo>
+    </cancion>
+    <cancion>
+        <titulo>You're gonna go far, kid</titulo>
+        <interprete>The offspring</interprete>
+        <pais>Estados unidos</pais>
+        <anio>2008</anio>
+        <estilo>Punk rock</estilo>
+    </cancion>
+</canciones>

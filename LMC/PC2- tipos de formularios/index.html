@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulario II. Tipos de Formulario</title>
+</head>
+<body>
+    <header>     
+        <h1>Elementos de un formulario web</h1>     
+        <p>HTML ofrece diferentes tipos de controles de formularios para que los usuarios puedan introducir, seleccionar y enviar informacion. aqui tienes todos los tipos principales de ejemplos:</p>
+    </header>
+    <main>
+
+        <section>
+            <h2>Campo de texto</h2>
+            <def>Permite escribir una linae de texto</def>
+            <code>&lt;input type ="text"&gt;</code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php" placeholder="Nombre">
+                <label>Nombre y Apellidos: </label>
+                <input type="text" name="texto">
+                <button>Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h2>Clave</h2>
+            <def>texto oculto por seguridad</def>
+            <code>&lt;input type ="password"&gt;</code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php" placeholder="clave">
+                <label>Clave: </label>
+                <input type="password" name="password">
+                <button>Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h2>Correo electronico</h2>
+            <def>Para direcciones de Email</def>
+            <code>&lt;input type ="Email"&gt;</code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php" placeholder="Email">
+                <label>Email: </label>
+                <input type="email" name="Email">
+                <button>Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h2>Numero</h2>
+            <def>permite introducir numeros</def>
+            <code>&lt;input type="number"&gt;</code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php" placeholder="numero">
+                <label>Numero: </label>
+                <input type="number" name="Numero">
+                <button>Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h2>Telefono</h2>
+            <def>Para numeros de telefono</def>
+            <code>&lt;input type="tel"&gt;</code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php" placeholder="Telefono">
+                <label>Telefono: </label>
+                <input type="tel" name="Telefono">
+                <button>Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h2>URL</h2>
+            <def>Para direcciones web</def>
+            <code>&lt;input type="url"&gt;</code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php" placeholder="URL">
+                <label>URL</label>
+                <input type="url" name="URL">
+                <button>Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h2>Busqueda</h2>
+            <def>campo de busqueda</def>
+            <code>&lt;input type="search"&gt;</code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php" placeholder="Busqueda">
+                <label>Busqueda</label>
+                <input type="search" name="Busqueda">
+                <button>Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h2>Fecha (decadas)</h2>
+            <def>numero de decada</def>
+            <code>&lt;input type="numero"&gt;</code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php" placeholder="Busqueda">
+                <label>Busqueda</label>
+                <input type="number" name="fecha (decadas)" min="1920" max="2020" step="10">
+                <button>Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h2>Fecha</h2>
+            <def>selector de fecha</def>
+            <code>&lt;input type="date"&gt;</code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php" placeholder="Fecha">
+                <label>Fecha</label>
+                <input type="date" name="Fecha">
+                <button>Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h2>Hora</h2>
+            <def>selector de hora</def>
+            <code>&lt;input type="time"&gt;</code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php" placeholder="Hora">
+                <label>Hora</label>
+                <input type="time" name="hora">
+                <button>Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h2>Semana</h2>
+            <def>selector de semana</def>
+            <code>&lt;input type="week"&gt;</code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php" placeholder="semana">
+                <label>Semana</label>
+                <input type="week" name="Semana">
+                <button>Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h2>Color</h2>
+            <def>selector de color</def>
+            <code>&lt;input type="color"&gt;</code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php" placeholder="color">
+                <label>Selecciona un color</label>
+                <input type="color" name="color">
+                <button>Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h2>Rango</h2>
+            <def>selector de rango</def>
+            <code>&lt;input type="range"&gt;</code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php" placeholder="rango">
+                <label>Selecciona un rango</label>
+                <input type="range" name="rango">
+                <button>Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h2>Archivo</h2>
+            <def>selector de archivo</def>
+            <code>&lt;input type="file"&gt;</code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php" placeholder="file">
+                <label>Adjunta archivo</label>
+                <input type="file" name="Archivo">
+                <button>Enviar</button>
+            </form>
+        </section>
+
+
+    </main>
+    
+</body>
+</html>
