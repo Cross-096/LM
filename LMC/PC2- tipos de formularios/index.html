@@ -152,7 +152,93 @@
                 <button>Enviar</button>
             </form>
         </section>
-
+        <section>
+            <h2>Check-box</h2>
+            <def>permite una unica seleccion</def>
+            <code>&lt;input type="checkbox"&gt;</code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php" placeholder="file">
+                <label>permite una sola respuesta</label>
+                <input type="checkbox" name="check">
+                <button>Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h2>Radio</h2>
+            <def>multiples opciones</def>
+            <code>&lt;input type="radio"&gt;</code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php" placeholder="file">
+                <label>multiples opciones</label>
+                <label>respuesta 1
+                    <input type="radio" name="respuesta1" >
+                </label>
+                <label>respuesta 1
+                    <input type="radio" name="respuesta1" >
+                </label>
+                <button>Enviar</button>
+            </form>
+        </section>
+        
+        <section>
+            <h2>lista desplegable</h2>
+            <def>multiples opciones</def>
+            <code>&lt;input type="select"&gt;</code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php" placeholder="file">
+                <label>multiples opciones</label>
+                <select>
+                    <option>respuesta 1</option>
+                    <option value="respuesta 2">respuesta 2</option>
+                </select>
+                <button>Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h2>lista desplegable multiples respuestas</h2>
+            <def>multiples opciones</def>
+            <code>&lt;option&gt;multiple"&lt;/option&gt;</code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php" placeholder="file">
+                <label>multiples opciones</label>
+                <select>
+                    <option value="respuesta1" multiple>respuesta 1</option>
+                    <option value="respuesta 2" multiple>respuesta 2</option>
+                </select>
+                <button>Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h2>texto varias lineas</h2>
+            <def>texto varias lineas</def>
+            <code>&lt;textarea&gt;</code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php" placeholder="file">
+                <label>comentario</label>
+                    <label><textarea name="comentario">comentario.</textarea></label>
+                <button>Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h2>data list</h2>
+            <def>sugerencias al escribir (lista de datos)</def>
+            <code>&lt;input list="(nombre datalist)"&gt;</code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php" placeholder="file">
+                <label>comentario
+                    <input list="ejemplo">
+                    <datalist id="ejemplo">
+                    <option value="respuesta 1">respuesta 1</option>
+                    <option value="respuesta 2">respuesta 2</option>
+                </datalist>
+                </label>
+                <button>Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h2>Archivo</h2>
+            <def>adjunta un archivo</def>
+            <code>&lt;input type="file"&gt;</code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php" placeholder="file">
+                <label>Selecciona un archivo</label>
+                <input type="file" name="archivo">
+                <button>Enviar</button>
+            </form>
+        </section>
 
     </main>
     
