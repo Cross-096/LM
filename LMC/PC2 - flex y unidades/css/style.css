@@ -1,0 +1,20 @@
+main.paises {
+    display:flex;
+    background-color: aquamarine;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+main.paises section.ficha {
+    padding: 10px;
+    border: solid, 1px, gray;
+    background-color: darkkhaki;
+    /* flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 33.33%; */
+    flex: 1 0 calc(33.33% - 10px);
+    max-width: calc(33.33% - 10px);
+    
+}
