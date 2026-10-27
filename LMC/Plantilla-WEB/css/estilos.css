@@ -1,0 +1,11 @@
+main{
+    display: flex;
+    width: 90%;max-width: 1200px;
+    margin:auto;
+}
+main section{
+    flex-grow: 1;
+}
+#red {
+    background-color: rgb(255, 0, 0);
+}
