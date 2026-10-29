@@ -5,7 +5,32 @@ main{
 }
 main section{
     flex-grow: 1;
+    padding: 18px;
 }
 #red {
     background-color: rgb(255, 0, 0);
+}
+#green {
+    background-color: #00ff00;
+}
+#blue {
+    background-color: #0000ff;
+}
+#orange {
+    background-color: #f90;
+}
+#yellow {
+    background-color: #ffff00;
+}
+#magenta {
+    background-color: #ff00ff;
+}
+#cyan {
+    background-color: #00ffff;
+}
+#prueba1 {
+    background-color: rgb(210, 105, 30);
+}
+#prueba2 {
+    background-color: rgb(210, 106, 30);
 }
