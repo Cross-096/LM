@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM LAB.</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
+</head>
+<body>
+
+
+    <header id="cabecera">
+        <span class="etiqueta">Laboratorio de JavaScript</span>
+        <h1>DOM<br>LAB.</h1>
+        <p>Un espacio para experimentar con el árbol de elementos HTML.</p>
+    </header>
+
+    <main>
+
+        <section id="textos">
+            <span class="etiqueta">01 / Textos</span>
+            <h2>Elementos de texto</h2>
+
+            <h3 id="titulo-principal">La ciudad del futuro</h3>
+
+            <p class="parrafo">
+                Las ciudades del futuro serán espacios inteligentes,
+                sostenibles y conectados.
+            </p>
+
+            <p class="parrafo">
+                La tecnología permitirá mejorar la movilidad,
+                reducir el consumo energético y transformar
+                nuestra forma de vivir.
+            </p>
+
+            <p>
+                Este es un texto con una palabra
+                <strong>importante</strong> y otra en
+                <em>cursiva</em>.
+            </p>
+
+            <blockquote id="cita">
+                "La imaginación es más importante que el conocimiento".
+            </blockquote>
+
+            <button id="btn-cambiar-titulo" onclick="document.getElementById('titulo-principal').innerText = 'cualquiera'"">Cambiar título</button>
+        </section>
+
+
+
+        <section id="listas">
+            <span class="etiqueta">02 / Listas</span>
+            <h2>Listas de elementos</h2>
+
+            <h3>Ciudades para visitar</h3>
+
+            <ul id="lista-ciudades">
+                <li>Tokio</li>
+                <li>Lisboa</li>
+                <li>Reikiavik</li>
+                <li>Buenos Aires</li>
+            </ul>
+
+            <h3>Pasos para crear una web</h3>
+
+            <ol id="lista-pasos">
+                <li>Diseñar la estructura</li>
+                <li>Escribir el HTML</li>
+                <li>Aplicar CSS</li>
+                <li>Añadir JavaScript</li>
+            </ol>
+        </section>
+
+
+        <section id="tarjetas">
+            <span class="etiqueta">03 / Tarjetas</span>
+            <h2>Galería de proyectos</h2>
+
+            <div class="contenedor-tarjetas">
+
+                <article class="tarjeta" data-categoria="arte">
+                    <img src="https://picsum.photos/400/250?random=1" alt="Proyecto de arte">
+                    <h3>Proyecto 01</h3>
+                    <p>Una propuesta artística experimental.</p>
+                    <button class="btn-ver">Ver proyecto</button>
+                </article>
+
+                <article class="tarjeta" data-categoria="tecnologia">
+                    <img src="https://picsum.photos/400/250?random=2" alt="Proyecto tecnológico">
+                    <h3>Proyecto 02</h3>
+                    <p>Una aplicación para el futuro.</p>
+                    <button class="btn-ver">Ver proyecto</button>
+                </article>
+
+                <article class="tarjeta" data-categoria="diseno">
+                    <img src="https://picsum.photos/400/250?random=3" alt="Proyecto de diseño">
+                    <h3>Proyecto 03</h3>
+                    <p>Diseño y comunicación visual.</p>
+                    <button class="btn-ver">Ver proyecto</button>
+                </article>
+
+            </div>
+        </section>
+
+
+        <section id="formulario">
+            <span class="etiqueta">04 / Formularios</span>
+            <h2>Registro de usuario</h2>
+
+            <form id="form-registro">
+
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre"
+                       placeholder="Escribe tu nombre">
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email"
+                       placeholder="correo@ejemplo.com">
+
+                <label for="edad">Edad</label>
+                <input type="number" id="edad" name="edad"
+                       min="18" max="100">
+
+                <label for="pais">País</label>
+                <select id="pais" name="pais">
+                    <option value="">Selecciona un país</option>
+                    <option value="es">España</option>
+                    <option value="fr">Francia</option>
+                    <option value="it">Italia</option>
+                    <option value="pt">Portugal</option>
+                </select>
+
+                <label for="comentarios">Comentarios</label>
+                <textarea id="comentarios" rows="4"
+                          placeholder="Escribe aquí..."></textarea>
+
+                <label>
+                    <input type="checkbox" id="acepto" style="width:auto;display:inline">
+                    Acepto las condiciones
+                </label>
+
+                <br><br>
+
+                <button type="submit">Enviar formulario</button>
+
+            </form>
+        </section>
+
+
+        <section id="tabla">
+            <span class="etiqueta">05 / Tablas</span>
+            <h2>Clasificación de películas</h2>
+
+            <table id="tabla-peliculas">
+                <thead>
+                    <tr>
+                        <th>Película</th>
+                        <th>Director</th>
+                        <th>Año</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Interstellar</td>
+                        <td>Christopher Nolan</td>
+                        <td>2014</td>
+                    </tr>
+
+                    <tr>
+                        <td>Parásitos</td>
+                        <td>Bong Joon-ho</td>
+                        <td>2019</td>
+                    </tr>
+
+                    <tr>
+                        <td>La llegada</td>
+                        <td>Denis Villeneuve</td>
+                        <td>2016</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+
+        <section id="interaccion">
+            <span class="etiqueta">06 / Interacción</span>
+            <h2>Elementos manipulables</h2>
+
+            <div id="caja-destacada" class="destacado">
+                Este bloque tiene una clase CSS llamada "destacado".
+            </div>
+
+            <p id="mensaje" data-estado="inicial">
+                Aquí aparecerán mensajes.
+            </p>
+
+            <button id="btn-color">Cambiar color</button>
+            <button id="btn-mensaje">Mostrar mensaje</button>
+            <button id="btn-ocultar">Ocultar bloque</button>
+            <button id="btn-mostrar">Mostrar bloque</button>
+
+        </section>
+
+
+
+        <section id="dinamicos">
+            <span class="etiqueta">07 / Elementos dinámicos</span>
+            <h2>Crear nuevos elementos</h2>
+
+            <p>En esta zona podremos insertar elementos mediante JavaScript.</p>
+
+            <div id="contenedor-dinamico">
+                <p>Este es el contenido original.</p>
+            </div>
+
+            <button id="btn-anadir">Añadir elemento</button>
+            <button id="btn-eliminar">Eliminar último elemento</button>
+        </section>
+
+    </main>
+
+    <footer id="pie">
+        DOM LAB · HTML + CSS + JAVASCRIPT · 2026
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
